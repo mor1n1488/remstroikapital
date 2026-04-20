@@ -1,0 +1,14 @@
+{
+  "name": "remstroikapital-site",
+  "version": "1.0.0",
+  "description": "Ремстройкапитал — сайт с разделением на HTML/CSS/JS и backend на Node.js + SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:exe": "npx pkg server.js --targets node18-win-x64 --output dist/remstroikapital.exe"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
